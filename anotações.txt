@@ -1,0 +1,20 @@
+Links Ulteis 
+download GitHub: 
+https://git-scm.com/downloads
+
+O Git Bash é um terminal estendido para otimizar o uso do Git.
+
+Comandos:
+cd para navegar nas pastas
+ls para listar na pasta oque tem
+pwd mostrar caminho completo
+cat mostra o conteudo do arquivo ex: cat id_ed25519.pub
+git status = ve os estatos
+git add . = indica que quer enviar arquivos para nuvem
+git commit -m = da um commit para ir para a nuvem o -m é o comentario tem que estar entre "" o comentario.
+Gerando senha cripto SSH
+comando para gerar chave: ssh-keygen -t ed25519 -C barrosleandro1990@gmail.com
+apos gerer a senha colaca-la no git no campo de ssh.
+depois voltar ao bah e gerar o pid com o comando: eval $(ssh-agent -s)
+apos gerar o pid, informar onde ele vai ficar, informormar a pasta onde esta a ssh
+localizar a pasta e dar o seguinte comando: ssh-add id_ed25519
